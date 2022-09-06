@@ -6,12 +6,15 @@ import "./navigation.styles.scss"
 const Navigation = () => (
   <>
     <div className="navigation">
-      <Link className="logo-conatiner" to="/">
+      <Link className="logo-container" to="/">
         <Logo className="logo" />
       </Link>
       <div className="nav-links-container">
         <Link className="nav-link" to="/shop">
           SHOP
+        </Link>
+        <Link className="nav-link" to="/auth">
+          SIGNIN
         </Link>
       </div>
     </div>
